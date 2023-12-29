@@ -1,0 +1,145 @@
+
+body {
+
+  background-color: hsl(47, 88%, 63%);
+
+  font-family: 'Figtree';
+
+}
+
+/* Phone */
+
+#phone {
+
+  margin-top: 17.5%;
+
+}
+
+.img-1 {
+  text-align: center;
+
+  border-radius: 10px;
+
+  width: 100%;
+
+  margin: auto;
+
+}
+
+.phone-img {
+
+  margin: auto;
+
+  padding: 2.5%;
+
+  width: 31.5%;
+
+  background-color: hsl(0, 0%, 100%);
+
+  border: 1px solid hsl(0, 0%, 7%);
+
+  border-radius: 25px;
+
+}
+
+.shadow {
+
+  position: absolute;
+
+  top: 33.5%;
+
+  left: 35.5%;
+
+  z-index: -1;
+
+  width: 31%;
+
+  height: 84%;
+
+  border-radius: 25px;
+
+  background-color: hsl(0, 0%, 7%)
+
+}
+
+.btn-top {
+
+  background-color: hsl(47, 88%, 63%);
+
+  border: 0;
+
+  color: hsl(0, 0%, 7%);
+
+  margin: 6% auto;
+
+}
+
+.phone-top-publisheddate {
+
+  font-size: 16px;
+
+}
+
+.phone-title {
+
+  font-weight: 900;
+
+  font-size: 160%;
+
+  padding-bottom: 4%
+
+}
+
+.phone-title:hover {
+
+  color: hsl(47, 88%, 63%);
+
+}
+
+.phone-description {
+
+  color: hsl(0, 0%, 50%);
+
+}
+
+.user {
+
+  font-weight: 800;
+
+  font-size: 16px;
+
+}
+
+.name {
+
+  margin-left: 3%
+
+}
+
+.attribution {
+
+  text-align: center;
+
+}
+
+@media (max-width: 1200px) {
+
+  .phone-img {
+
+    width: 65%;
+
+  }
+
+  .shadow {
+
+   width: 64.5%;
+
+   height: 95%;
+
+   top: 23.5%;
+
+   left: 19%
+
+  }
+
+}
